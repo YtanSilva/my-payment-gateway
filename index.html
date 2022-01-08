@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>my gateway</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div class="container">
+            <form action="#">
+                <div class="row">
+                    <div class="col">
+                        <h3 class="title">endereço de cobrança</h3>
+                        <div class="input-box">
+                            <label for="name">nome inteiro </label>
+                            <input type="text" name="name" id="name" placeholder="ex. Juliano Almeida">
+                        </div>
+                        <div class="input-box">
+                            <label for="email">email</label>
+                            <input type="text" name="email" id="email" placeholder="exemplo@email.com">
+                        </div>
+                        <div class="input-box">
+                            <label for="address">endereço</label>
+                            <input type="text" name="address" id="address" placeholder="Rua Conselheiro Ag..">
+                        </div>
+                        <div class="input-box">
+                            <label for="city">cidade</label>
+                            <input type="text" name="city" id="city" placeholder="São Paulo">
+                        </div>
+                        <div class="flex">
+
+                            <div class="input-box">
+                                <label for="state">UF</label>
+                                <input type="text" name="state" id="state" placeholder="SP">
+                            </div>
+                            <div class="input-box">
+                                <label for="cep">CEP</label>
+                                <input type="text" name="cep"
+                                id="cep" placeholder="90000-000">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <h3 class="title">Pagamento</h3>
+                        <div class="input-box">
+                            <span>Cartões Aceitos</span>
+                            <img src="./images/card_img.png" alt="Cartões aceitos">
+                        </div>
+                        <div class="input-box">
+                            <label for="card-name">nome do títular:</label>
+                            <input type="text" name="card-name" id="card-name" placeholder="Juliano M Almeida">
+                        </div>
+                        <div class="input-box">
+                            <label for="card-number">dígitos do cartão</label>
+                            <input type="text" name="card-number" id="card-number" placeholder="9000 0008 7000 6000">
+                        </div>
+                        <div class="input-box">
+                            <label for="exp-date">validade do cartão</label>
+                            <input type="text" name="exp-date" id="exp-date"
+                            placeholder="12/25">
+                        </div>
+                        <div class="input-box">
+                            <label for="cvv">CVV</label>
+                            <input type="text" name="cvv" id="cvv" placeholder="999">
+                        </div>
+
+                    </div>
+                </div>
+                <input type="submit" value="prosseguir para a finalização" class="submit-btn">
+            </form>
+        </div>
+    </body>
+</html>
